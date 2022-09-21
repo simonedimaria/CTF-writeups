@@ -8,7 +8,7 @@ Category: WEB | 54 pts - 406 solves
 
 This challenge wasn't much about a particular vulnerability but more like a sanity-check. Opening http://web.chal.csaw.io:5010 it shows up a website with a lot of words and fake links, but viewing source code (view-source:http://web.chal.csaw.io:5010/) and searching for href values you actually see the real links. You don't have much more apart from the fact that there were a cookie "solChain" that tracked all your endpoint visits made in chronological order, and description says that words are all linked, so it was clear that the sequence in which you clicked the links was important. I made a script that scraped the REAL links in the page and visiting it until it shows up something different.​
 
-'''python
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -41,6 +41,6 @@ while True:
     except:
         print(driver.page_source)
         break
-'''
+```
 
 > CTF{w0rdS\_4R3\_4mAz1nG\_r1ght}
