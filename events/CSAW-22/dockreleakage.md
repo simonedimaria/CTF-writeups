@@ -1,5 +1,5 @@
 ---
-description: REV | 52 pts - 440 solves
+Category: REV | 52 pts - 440 solves
 ---
 
 # DockREleakage
@@ -42,9 +42,7 @@ layer
 Find the rest of the flag by yourself!
 ```
 
-{% hint style="info" %}
 Check out also this nice tool to explore docker image layers:\
 [https://github.com/wagoodman/dive](https://github.com/wagoodman/dive)
-{% endhint %}
 
 > flag{n3v3r\_l34v3\_53n5171v3\_1nf0rm4710n\_unpr073c73d\_w17h1n\_7h3\_d0ck3rf1l3}
