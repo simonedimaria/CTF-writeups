@@ -14,7 +14,7 @@ First thing, check for XSS:
 <script> document.write(window.location) </script>
 ```
 
-<figure><img src="/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/1.png" alt=""><figcaption></figcaption></figure>
 
 Ok, vulnerable, actually, it's Server-Side XSS, as we're not injecting code in the webpage (client-side), instead we executing code on the server-side of the application. \
 Let's try something more interesting:
