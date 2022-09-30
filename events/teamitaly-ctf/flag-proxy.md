@@ -12,9 +12,9 @@ Looking at the challenge, we see that the website it's powered by Express.js. Lo
 Also we need to find a way to chain requests in HTTP 1.0 (modern http-smuggling techniques won't work, i.e: `Transfer-Encoding: chunked`), this can be done by setting the header `Connection: keep-alive`.\
 Let's try to craft a double smuggling request with docker container running in local to analyze logs:
 
-<figure><img src="../../.gitbook/assets/SMUGGLE.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/assets/smuggle.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/smuggle2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/assets/smuggle2.png" alt=""><figcaption></figcaption></figure>
 
 It's working! Now, lets make a request to `/add-token` with an arbitrary token, to be able to write our token inside `tokens[]` array, bypassing app checks (AUTH param), and later getting the flag:
 
