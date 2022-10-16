@@ -1,5 +1,5 @@
 ---
-description: WEB | 37 pts - 176 solves
+description: WEB | 100 pts
 ---
 
 # Dungeons & Breakfast

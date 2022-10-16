@@ -4,7 +4,7 @@ description: WEB | 37 pts - 176 solves
 
 # Beginner ducks
 
-> description: Hiiiii, welcome to ASIS CTF. We have ducks. Check them out http://ducks.asisctf.com:8000/. Download source-code from here.
+> Description: Hiiiii, welcome to ASIS CTF. We have ducks. Check them out http://ducks.asisctf.com:8000/. Download source-code from here.
 
 Source code:
 
